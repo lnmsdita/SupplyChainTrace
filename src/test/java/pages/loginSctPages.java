@@ -16,8 +16,8 @@ public class loginSctPages extends PageObject{
     WebElement titleDashboard;
 
     public void loginSCTGlobal(){
-        usernameField.sendKeys("koltiva.support");
-        passwordField.sendKeys("Password1234!");
+        usernameField.sendKeys("koltiva"); //if you want to try, contact me via email or linkedin 
+        passwordField.sendKeys("Pass!");
         btnSubmitfield.click();
     }
 
