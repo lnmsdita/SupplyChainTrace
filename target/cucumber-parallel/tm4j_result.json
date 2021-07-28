@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "success in training page",
+        "description": "",
+        "id": "training-menu;success-in-training-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5642276100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "dashboard sctTraining website",
+            "match": {
+              "location": "training.dashboard_sctTraining_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6036038300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "going to training page",
+            "match": {
+              "location": "training.going_to_training_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97522299,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "success in training page",
+            "match": {
+              "location": "training.success_in_training_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@training"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "success in form add new training",
+        "description": "",
+        "id": "training-menu;success-in-form-add-new-training",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9012713400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "in training page",
+            "match": {
+              "location": "training.in_training_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33284281400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "going to click button add training",
+            "match": {
+              "location": "training.going_to_click_button_add_training()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2294299,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "success in form add new training",
+            "match": {
+              "location": "training.success_in_form_add_new_training()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@training"
+          }
+        ]
+      }
+    ],
+    "name": "Training menu",
+    "description": "  as a user\n  I want to see training data\n  So that I should going to training menu",
+    "id": "training-menu",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/training/training.feature",
+    "tags": []
+  }
+]

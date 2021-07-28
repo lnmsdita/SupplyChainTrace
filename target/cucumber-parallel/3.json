@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "success in SME page",
+        "description": "",
+        "id": "sme-menu;success-in-sme-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6669924700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "dashboard supplychain website",
+            "match": {
+              "location": "sme.dashboard_supplychain_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11227075300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "going to SME page",
+            "match": {
+              "location": "sme.going_to_SME_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4708454900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "success in SME page",
+            "match": {
+              "location": "sme.success_in_SME_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sme"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "success in form add new sme",
+        "description": "",
+        "id": "sme-menu;success-in-form-add-new-sme",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11630508000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "in sme page",
+            "match": {
+              "location": "sme.in_sme_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32919456800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "going to click button add sme",
+            "match": {
+              "location": "sme.going_to_click_button_add_sme()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1426300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "success in form add new sme",
+            "match": {
+              "location": "sme.success_in_form_add_new_sme()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sme"
+          }
+        ]
+      }
+    ],
+    "name": "SME menu",
+    "description": "  as a user\n  I want to see SME data\n  So that I should going to SME menu",
+    "id": "sme-menu",
+    "keyword": "Feature",
+    "uri": "C:/Users/dita.sari/IdeaProjects/SctGlobal/src/test/resources/features/sme/sme.feature",
+    "tags": []
+  }
+]

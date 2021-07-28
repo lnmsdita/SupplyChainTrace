@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "success in farmer page",
+        "description": "",
+        "id": "farmer-for-sctglobal-web;success-in-farmer-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8527373500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "dashboard sct website",
+            "match": {
+              "location": "farmer.dashboard_sct_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1741398500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "going to farmer sct",
+            "match": {
+              "location": "farmer.going_to_farmer_sct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 604855900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "success in farmer page",
+            "match": {
+              "location": "farmer.success_in_farmer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "success in form add new farmer",
+        "description": "",
+        "id": "farmer-for-sctglobal-web;success-in-form-add-new-farmer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19749142800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "in farmer page",
+            "match": {
+              "location": "farmer.in_farmer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21376458300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "going to click button add",
+            "match": {
+              "location": "farmer.going_to_click_button_add()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1768100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "success in form add new farmer",
+            "match": {
+              "location": "farmer.success_in_form_add_new_farmer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Farmer for sctGlobal web",
+    "description": "  as a user\n  I want to access the website\n  So that I should add new farmer",
+    "id": "farmer-for-sctglobal-web",
+    "keyword": "Feature",
+    "uri": "C:/Users/dita.sari/IdeaProjects/SctGlobal/src/test/resources/features/farmer/farmer.feature",
+    "tags": []
+  }
+]

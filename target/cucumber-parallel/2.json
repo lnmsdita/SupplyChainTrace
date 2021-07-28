@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Success login to sctGlobal web",
+        "description": "",
+        "id": "login-to-sctglobal-web;success-login-to-sctglobal-web",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6641654200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "home page sctGlobal website",
+            "match": {
+              "location": "loginSct.home_page_sctGlobal_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 412143100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "going to login page to sctGlobal",
+            "match": {
+              "location": "loginSct.going_to_login_page_to_sctGlobal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11087434600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "failed login to sctGlobal website",
+            "match": {
+              "location": "loginSct.failed_login_to_sctGlobal_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to sctGlobal web",
+    "description": "  as a user\n  I want to enter to the website\n  So that I should login to the website",
+    "id": "login-to-sctglobal-web",
+    "keyword": "Feature",
+    "uri": "C:/Users/dita.sari/IdeaProjects/SctGlobal/src/test/resources/features/loginSct/loginSct.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,16 @@
+Parallel02IT.class
+tests\loginSct.class
+Parallel01IT.class
+steps\loginSctSteps.class
+Parallel04IT.class
+pages\farmerPages.class
+pages\smePages.class
+pages\loginSctPages.class
+steps\smeSteps.class
+pages\trainingPages.class
+tests\training.class
+tests\farmer.class
+tests\sme.class
+Parallel03IT.class
+steps\farmerSteps.class
+steps\trainingSteps.class

@@ -1,0 +1,247 @@
+{
+  "report": {
+    "title": "Serenity Summary Report",
+    "tagCategoryTitle": "Category",
+    "version": "",
+    "date": "2021-06-18T11:19:07.692"
+  },
+  "results": {
+    "counts": {
+      "total": 6,
+      "success": 6,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "percentages": {
+      "success": 100,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "totalTestDuration": " 3m 16s",
+    "totalClockDuration": " 1m 8s",
+    "minTestDuration": "19s",
+    "maxTestDuration": "45s",
+    "averageTestDuration": "32s"
+  },
+  "resultsByFeature": [
+    {
+      "featureName": "Farmer for sctGlobal web",
+      "scenarios": [
+        {
+          "title": "success in farmer page",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        },
+        {
+          "title": "success in form add new farmer",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "featureName": "Login to sctGlobal web",
+      "scenarios": [
+        {
+          "title": "Success login to sctGlobal web",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "featureName": "SME menu",
+      "scenarios": [
+        {
+          "title": "success in SME page",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        },
+        {
+          "title": "success in form add new sme",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "featureName": "Training menu",
+      "scenarios": [
+        {
+          "title": "success in form add new training",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frequentFailures": [
+  ],
+  "unstableFeatures": [
+  ],
+  "coverage": [
+    {
+      "tagTitle": "Feature",
+      "tagCoverages": [
+        {
+          "tagName": "Farmer for sctGlobal web",
+          "testCount": 2,
+          "successRate": "100%",
+          "counts": {
+            "total": 6,
+            "success": 2,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 100,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        },
+        {
+          "tagName": "Login to sctGlobal web",
+          "testCount": 1,
+          "successRate": "100%",
+          "counts": {
+            "total": 6,
+            "success": 1,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 100,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        },
+        {
+          "tagName": "SME menu",
+          "testCount": 2,
+          "successRate": "100%",
+          "counts": {
+            "total": 6,
+            "success": 2,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 100,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        },
+        {
+          "tagName": "Training menu",
+          "testCount": 1,
+          "successRate": "100%",
+          "counts": {
+            "total": 6,
+            "success": 1,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 100,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagType": "",
+      "tagResults": [
+        {
+          "tagName": "sme",
+          "count": 2
+        },
+        {
+          "tagName": "training",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
+
+
+
